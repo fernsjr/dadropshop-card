@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="author" content="Timothy Ivins">
 <meta name="copyright" content="© 2026 Timothy Ivins">
-<meta name="description" content="Digital business card for Da Drop Shop, Fernando Jr., Sales Executive. Services: PDR paintless dent repair, hail damage repair, insurance estimates, diagnostics, and 3D printing and design. Design by Timothy Ivins.">
+<meta name="description" content="Digital business card for Da Drop Shop, Fernando Jr., Sales Executive. Services: wheels, tires, lift kits, drop kits, powder coating, painting, systems and lighting, and vehicle maintenance. Design by Timothy Ivins.">
 <meta name="theme-color" content="#32CD32">
 <title>Da Drop Shop - Fernando Jr.</title>
 <link rel="canonical" href="https://fernsjr.github.io/dadropshop-card/">
@@ -14,7 +14,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Da Drop Shop">
 <meta property="og:title" content="Da Drop Shop - Fernando Jr., Sales Executive">
-<meta property="og:description" content="Sales Executive at Da Drop Shop. Paintless Dent Repair, hail damage, insurance estimates, diagnostics, and 3D printing and design. Midland, TX.">
+<meta property="og:description" content="Sales Executive at Da Drop Shop. Wheels, tires, lift kits, drop kits, powder coating, painting, systems and lighting, and vehicle maintenance. Midland, TX.">
 <meta property="og:url" content="https://fernsjr.github.io/dadropshop-card/">
 <meta property="og:image" content="https://fernsjr.github.io/dadropshop-card/og-image.jpg">
 <meta property="og:image:alt" content="Da Drop Shop business card, Fernando Jr., Sales Executive">
@@ -22,7 +22,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Da Drop Shop - Fernando Jr., Sales Executive">
-<meta name="twitter:description" content="Sales Executive at Da Drop Shop. Paintless Dent Repair, hail damage, insurance estimates, diagnostics, and 3D printing and design. Midland, TX.">
+<meta name="twitter:description" content="Sales Executive at Da Drop Shop. Wheels, tires, lift kits, drop kits, powder coating, painting, systems and lighting, and vehicle maintenance. Midland, TX.">
 <meta name="twitter:image" content="https://fernsjr.github.io/dadropshop-card/og-image.jpg">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -71,7 +71,32 @@ html, body {
   text-decoration: none;
   font-size: 15px;
   line-height: 1.4;
-  margin: 8px 0 28px;
+  margin: 8px 0 24px;
+}
+.services {
+  list-style: none;
+  text-align: left;
+  max-width: 320px;
+  margin: 0 auto 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+}
+.services li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 15px;
+  color: #f5f5f7;
+}
+.services li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #32CD32;
 }
 .more {
   display: grid;
@@ -83,11 +108,6 @@ html, body {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  display: block;
-}
-.sig {
-  width: 140px;
-  margin: 8px 0 0 auto;
   display: block;
 }
 .foot {
@@ -104,11 +124,20 @@ html, body {
     <a class="btn secondary" href="https://maps.google.com/?q=4005+S+Hwy+349,+Midland,+TX+79706">Directions</a>
     <a class="btn secondary" href="FernandoJr.vcf" download="FernandoJr.vcf">Save Contact</a>
     <a class="addr" href="https://maps.google.com/?q=4005+S+Hwy+349,+Midland,+TX+79706">4005 S Hwy 349<br>Midland, TX 79706</a>
+    <ul class="services">
+      <li>Wheels</li>
+      <li>Tires</li>
+      <li>Lift Kits</li>
+      <li>Drop Kits</li>
+      <li>Powder Coating</li>
+      <li>Painting</li>
+      <li>Systems & Lighting</li>
+      <li>Vehicle Maintenance</li>
+    </ul>
     <div class="more">
       <img src="option_A_front.jpg" width="2100" height="1200" alt="Da Drop Shop card front, Fernando Jr.">
       <img src="option_A_back.jpg" width="2100" height="1200" alt="Da Drop Shop card back, Fernando Jr.">
     </div>
-    <img class="sig" src="signature.png" width="240" alt="Timothy Ivins">
     <p class="foot">© 2026 Timothy Ivins</p>
   </main>
 </body>
